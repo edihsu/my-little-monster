@@ -13,6 +13,8 @@
 		CE8AD6C31C6C800D000FDDD5 /* mylittlemonster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE8AD6C11C6C800D000FDDD5 /* mylittlemonster.xcdatamodeld */; };
 		CE8AD6C51C6C800D000FDDD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8AD6C41C6C800D000FDDD5 /* Assets.xcassets */; };
 		CE8AD6C81C6C800D000FDDD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8AD6C61C6C800D000FDDD5 /* LaunchScreen.storyboard */; };
+		CE8AD6D01C6D7A35000FDDD5 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AD6CF1C6D7A35000FDDD5 /* DragImg.swift */; };
+		CE8AD6D21C71488F000FDDD5 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AD6D11C71488F000FDDD5 /* MonsterImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE8AD6C41C6C800D000FDDD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8AD6C71C6C800D000FDDD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8AD6C91C6C800D000FDDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8AD6CF1C6D7A35000FDDD5 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		CE8AD6D11C71488F000FDDD5 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				CE8AD6BA1C6C800D000FDDD5 /* AppDelegate.swift */,
 				CE8AD6BC1C6C800D000FDDD5 /* ViewController.swift */,
+				CE8AD6CF1C6D7A35000FDDD5 /* DragImg.swift */,
+				CE8AD6D11C71488F000FDDD5 /* MonsterImg.swift */,
 				CE8AD6BE1C6C800D000FDDD5 /* Main.storyboard */,
 				CE8AD6C41C6C800D000FDDD5 /* Assets.xcassets */,
 				CE8AD6C61C6C800D000FDDD5 /* LaunchScreen.storyboard */,
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					CE8AD6B61C6C800D000FDDD5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = M6284KAVTJ;
 					};
 				};
 			};
@@ -138,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8AD6D21C71488F000FDDD5 /* MonsterImg.swift in Sources */,
 				CE8AD6C31C6C800D000FDDD5 /* mylittlemonster.xcdatamodeld in Sources */,
 				CE8AD6BD1C6C800D000FDDD5 /* ViewController.swift in Sources */,
 				CE8AD6BB1C6C800D000FDDD5 /* AppDelegate.swift in Sources */,
+				CE8AD6D01C6D7A35000FDDD5 /* DragImg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = mylittlemonster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = projects.edihsu.mylittlemonster;
@@ -264,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = mylittlemonster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = projects.edihsu.mylittlemonster;
@@ -290,6 +301,7 @@
 				CE8AD6CE1C6C800D000FDDD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

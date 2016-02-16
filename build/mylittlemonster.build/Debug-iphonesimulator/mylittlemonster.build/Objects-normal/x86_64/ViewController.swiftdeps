@@ -1,0 +1,306 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C15mylittlemonster14ViewController"
+provides-member:
+- ["C15mylittlemonster14ViewController", ""]
+provides-dynamic-lookup:
+- "heartImg"
+- "monsterImg"
+- "penalty3Img"
+- "penalty2Img"
+- "foodImg"
+- "viewDidLoad"
+- "penalty1Img"
+depends-top-level:
+- "MonsterImg"
+- "UIImageView"
+- !private "print"
+- !private "AnyObject"
+- !private "StringLiteralType"
+- !private "NSNotificationCenter"
+- "DragImg"
+- "UIViewController"
+- "ViewController"
+depends-member:
+- !private ["PSs9AnyObject", "NSNotificationCenter"]
+- !private ["PSs9AnyObject", "addObserver"]
+- !private ["PSs9AnyObject", "defaultCenter"]
+- !private ["PSs9AnyObject", "dropTarget"]
+- ["PSs9AnyObject", "foodImg"]
+- ["PSs9AnyObject", "heartImg"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "monsterImg"]
+- ["PSs9AnyObject", "penalty1Img"]
+- ["PSs9AnyObject", "penalty2Img"]
+- ["PSs9AnyObject", "penalty3Img"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "NSNotificationCenter"]
+- !private ["PSs11CVarArgType", "addObserver"]
+- !private ["PSs11CVarArgType", "defaultCenter"]
+- !private ["PSs11CVarArgType", "dropTarget"]
+- ["PSs11CVarArgType", "foodImg"]
+- ["PSs11CVarArgType", "heartImg"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "monsterImg"]
+- ["PSs11CVarArgType", "penalty1Img"]
+- ["PSs11CVarArgType", "penalty2Img"]
+- ["PSs11CVarArgType", "penalty3Img"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "NSNotificationCenter"]
+- !private ["PSs23CustomStringConvertible", "addObserver"]
+- !private ["PSs23CustomStringConvertible", "defaultCenter"]
+- !private ["PSs23CustomStringConvertible", "dropTarget"]
+- ["PSs23CustomStringConvertible", "foodImg"]
+- ["PSs23CustomStringConvertible", "heartImg"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "monsterImg"]
+- ["PSs23CustomStringConvertible", "penalty1Img"]
+- ["PSs23CustomStringConvertible", "penalty2Img"]
+- ["PSs23CustomStringConvertible", "penalty3Img"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["C15mylittlemonster7DragImg", "dropTarget"]
+- !private ["PSs9Equatable", "NSNotificationCenter"]
+- !private ["PSs9Equatable", "addObserver"]
+- !private ["PSs9Equatable", "defaultCenter"]
+- !private ["PSs9Equatable", "dropTarget"]
+- ["PSs9Equatable", "foodImg"]
+- ["PSs9Equatable", "heartImg"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "monsterImg"]
+- ["PSs9Equatable", "penalty1Img"]
+- ["PSs9Equatable", "penalty2Img"]
+- ["PSs9Equatable", "penalty3Img"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "NSNotificationCenter"]
+- !private ["PSs8Hashable", "addObserver"]
+- !private ["PSs8Hashable", "defaultCenter"]
+- !private ["PSs8Hashable", "dropTarget"]
+- ["PSs8Hashable", "foodImg"]
+- ["PSs8Hashable", "heartImg"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "monsterImg"]
+- ["PSs8Hashable", "penalty1Img"]
+- ["PSs8Hashable", "penalty2Img"]
+- ["PSs8Hashable", "penalty3Img"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["PSo8NSCoding", "NSNotificationCenter"]
+- !private ["PSo8NSCoding", "dropTarget"]
+- ["PSo8NSCoding", "foodImg"]
+- ["PSo8NSCoding", "heartImg"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "monsterImg"]
+- ["PSo8NSCoding", "penalty1Img"]
+- ["PSo8NSCoding", "penalty2Img"]
+- ["PSo8NSCoding", "penalty3Img"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "NSNotificationCenter"]
+- ["PSo26NSExtensionRequestHandling", "foodImg"]
+- ["PSo26NSExtensionRequestHandling", "heartImg"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "monsterImg"]
+- ["PSo26NSExtensionRequestHandling", "penalty1Img"]
+- ["PSo26NSExtensionRequestHandling", "penalty2Img"]
+- ["PSo26NSExtensionRequestHandling", "penalty3Img"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo20NSNotificationCenter", "addObserver"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "DragImg"]
+- ["CSo8NSObject", "MonsterImg"]
+- !private ["CSo8NSObject", "NSNotificationCenter"]
+- ["CSo8NSObject", "UIImageView"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "dropTarget"]
+- ["CSo8NSObject", "foodImg"]
+- ["CSo8NSObject", "heartImg"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "monsterImg"]
+- ["CSo8NSObject", "penalty1Img"]
+- ["CSo8NSObject", "penalty2Img"]
+- ["CSo8NSObject", "penalty3Img"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "NSNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "dropTarget"]
+- ["PSo16NSObjectProtocol", "foodImg"]
+- ["PSo16NSObjectProtocol", "heartImg"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "monsterImg"]
+- ["PSo16NSObjectProtocol", "penalty1Img"]
+- ["PSo16NSObjectProtocol", "penalty2Img"]
+- ["PSo16NSObjectProtocol", "penalty3Img"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "dropTarget"]
+- !private ["PSo12UIAppearance", "dropTarget"]
+- !private ["PSo21UIAppearanceContainer", "NSNotificationCenter"]
+- !private ["PSo21UIAppearanceContainer", "dropTarget"]
+- ["PSo21UIAppearanceContainer", "foodImg"]
+- ["PSo21UIAppearanceContainer", "heartImg"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "monsterImg"]
+- ["PSo21UIAppearanceContainer", "penalty1Img"]
+- ["PSo21UIAppearanceContainer", "penalty2Img"]
+- ["PSo21UIAppearanceContainer", "penalty3Img"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "NSNotificationCenter"]
+- ["PSo18UIContentContainer", "foodImg"]
+- ["PSo18UIContentContainer", "heartImg"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "monsterImg"]
+- ["PSo18UIContentContainer", "penalty1Img"]
+- ["PSo18UIContentContainer", "penalty2Img"]
+- ["PSo18UIContentContainer", "penalty3Img"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "dropTarget"]
+- !private ["PSo13UIDynamicItem", "dropTarget"]
+- !private ["PSo18UIFocusEnvironment", "NSNotificationCenter"]
+- !private ["PSo18UIFocusEnvironment", "dropTarget"]
+- ["PSo18UIFocusEnvironment", "foodImg"]
+- ["PSo18UIFocusEnvironment", "heartImg"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "monsterImg"]
+- ["PSo18UIFocusEnvironment", "penalty1Img"]
+- ["PSo18UIFocusEnvironment", "penalty2Img"]
+- ["PSo18UIFocusEnvironment", "penalty3Img"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIImageView", "dropTarget"]
+- !private ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "DragImg"]
+- ["CSo11UIResponder", "MonsterImg"]
+- !private ["CSo11UIResponder", "NSNotificationCenter"]
+- ["CSo11UIResponder", "UIImageView"]
+- !private ["CSo11UIResponder", "dropTarget"]
+- ["CSo11UIResponder", "foodImg"]
+- ["CSo11UIResponder", "heartImg"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "monsterImg"]
+- ["CSo11UIResponder", "penalty1Img"]
+- ["CSo11UIResponder", "penalty2Img"]
+- ["CSo11UIResponder", "penalty3Img"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "NSNotificationCenter"]
+- ["PSo16UIStateRestoring", "foodImg"]
+- ["PSo16UIStateRestoring", "heartImg"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "monsterImg"]
+- ["PSo16UIStateRestoring", "penalty1Img"]
+- ["PSo16UIStateRestoring", "penalty2Img"]
+- ["PSo16UIStateRestoring", "penalty3Img"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "NSNotificationCenter"]
+- !private ["PSo18UITraitEnvironment", "dropTarget"]
+- ["PSo18UITraitEnvironment", "foodImg"]
+- ["PSo18UITraitEnvironment", "heartImg"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "monsterImg"]
+- ["PSo18UITraitEnvironment", "penalty1Img"]
+- ["PSo18UITraitEnvironment", "penalty2Img"]
+- ["PSo18UITraitEnvironment", "penalty3Img"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "dropTarget"]
+- !private ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "DragImg"]
+- ["CSo16UIViewController", "MonsterImg"]
+- !private ["CSo16UIViewController", "NSNotificationCenter"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "foodImg"]
+- ["CSo16UIViewController", "heartImg"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "monsterImg"]
+- ["CSo16UIViewController", "penalty1Img"]
+- ["CSo16UIViewController", "penalty2Img"]
+- ["CSo16UIViewController", "penalty3Img"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["C15mylittlemonster14ViewController", "AnyObject"]
+- ["C15mylittlemonster14ViewController", "DragImg"]
+- ["C15mylittlemonster14ViewController", "MonsterImg"]
+- !private ["C15mylittlemonster14ViewController", "NSNotificationCenter"]
+- ["C15mylittlemonster14ViewController", "UIImageView"]
+- ["C15mylittlemonster14ViewController", "deinit"]
+- ["C15mylittlemonster14ViewController", "foodImg"]
+- ["C15mylittlemonster14ViewController", "heartImg"]
+- ["C15mylittlemonster14ViewController", "init"]
+- ["C15mylittlemonster14ViewController", "monsterImg"]
+- ["C15mylittlemonster14ViewController", "penalty1Img"]
+- ["C15mylittlemonster14ViewController", "penalty2Img"]
+- ["C15mylittlemonster14ViewController", "penalty3Img"]
+- !private ["C15mylittlemonster14ViewController", "print"]
+- ["C15mylittlemonster14ViewController", "viewDidLoad"]
+- !private ["PSs12_Reflectable", "dropTarget"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- !private "C15mylittlemonster7DragImg"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo20NSNotificationCenter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "V10ObjectiveC8Selector"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C15mylittlemonster14ViewController"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "5541aa62538b586c338fb385edda752f"
