@@ -152,6 +152,7 @@ SWIFT_CLASS("_TtC15mylittlemonster14ViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified penalty2Img;
 @property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified penalty3Img;
 - (void)viewDidLoad;
+- (void)itemDroppedOnCharacter:(id __nonnull)notif;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

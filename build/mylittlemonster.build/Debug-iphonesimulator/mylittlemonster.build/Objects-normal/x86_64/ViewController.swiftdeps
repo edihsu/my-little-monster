@@ -6,23 +6,24 @@ provides-nominal:
 provides-member:
 - ["C15mylittlemonster14ViewController", ""]
 provides-dynamic-lookup:
+- "foodImg"
+- "itemDroppedOnCharacter"
+- "viewDidLoad"
+- "penalty1Img"
 - "heartImg"
 - "monsterImg"
 - "penalty3Img"
 - "penalty2Img"
-- "foodImg"
-- "viewDidLoad"
-- "penalty1Img"
 depends-top-level:
-- "MonsterImg"
-- "UIImageView"
-- !private "print"
-- !private "AnyObject"
-- !private "StringLiteralType"
+- "ViewController"
 - !private "NSNotificationCenter"
 - "DragImg"
+- "UIImageView"
+- !private "StringLiteralType"
+- !private "print"
+- "MonsterImg"
+- "AnyObject"
 - "UIViewController"
-- "ViewController"
 depends-member:
 - !private ["PSs9AnyObject", "NSNotificationCenter"]
 - !private ["PSs9AnyObject", "addObserver"]
@@ -31,6 +32,7 @@ depends-member:
 - ["PSs9AnyObject", "foodImg"]
 - ["PSs9AnyObject", "heartImg"]
 - ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "itemDroppedOnCharacter"]
 - ["PSs9AnyObject", "monsterImg"]
 - ["PSs9AnyObject", "penalty1Img"]
 - ["PSs9AnyObject", "penalty2Img"]
@@ -45,6 +47,7 @@ depends-member:
 - ["PSs11CVarArgType", "foodImg"]
 - ["PSs11CVarArgType", "heartImg"]
 - ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "itemDroppedOnCharacter"]
 - ["PSs11CVarArgType", "monsterImg"]
 - ["PSs11CVarArgType", "penalty1Img"]
 - ["PSs11CVarArgType", "penalty2Img"]
@@ -59,6 +62,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "foodImg"]
 - ["PSs23CustomStringConvertible", "heartImg"]
 - ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "itemDroppedOnCharacter"]
 - ["PSs23CustomStringConvertible", "monsterImg"]
 - ["PSs23CustomStringConvertible", "penalty1Img"]
 - ["PSs23CustomStringConvertible", "penalty2Img"]
@@ -74,6 +78,7 @@ depends-member:
 - ["PSs9Equatable", "foodImg"]
 - ["PSs9Equatable", "heartImg"]
 - ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "itemDroppedOnCharacter"]
 - ["PSs9Equatable", "monsterImg"]
 - ["PSs9Equatable", "penalty1Img"]
 - ["PSs9Equatable", "penalty2Img"]
@@ -88,6 +93,7 @@ depends-member:
 - ["PSs8Hashable", "foodImg"]
 - ["PSs8Hashable", "heartImg"]
 - ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "itemDroppedOnCharacter"]
 - ["PSs8Hashable", "monsterImg"]
 - ["PSs8Hashable", "penalty1Img"]
 - ["PSs8Hashable", "penalty2Img"]
@@ -100,6 +106,7 @@ depends-member:
 - ["PSo8NSCoding", "foodImg"]
 - ["PSo8NSCoding", "heartImg"]
 - ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "itemDroppedOnCharacter"]
 - ["PSo8NSCoding", "monsterImg"]
 - ["PSo8NSCoding", "penalty1Img"]
 - ["PSo8NSCoding", "penalty2Img"]
@@ -111,6 +118,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "foodImg"]
 - ["PSo26NSExtensionRequestHandling", "heartImg"]
 - ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "itemDroppedOnCharacter"]
 - ["PSo26NSExtensionRequestHandling", "monsterImg"]
 - ["PSo26NSExtensionRequestHandling", "penalty1Img"]
 - ["PSo26NSExtensionRequestHandling", "penalty2Img"]
@@ -120,7 +128,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["CSo20NSNotificationCenter", "addObserver"]
 - !private ["CSo20NSNotificationCenter", "defaultCenter"]
-- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "DragImg"]
 - ["CSo8NSObject", "MonsterImg"]
 - !private ["CSo8NSObject", "NSNotificationCenter"]
@@ -131,6 +139,7 @@ depends-member:
 - ["CSo8NSObject", "foodImg"]
 - ["CSo8NSObject", "heartImg"]
 - ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "itemDroppedOnCharacter"]
 - ["CSo8NSObject", "monsterImg"]
 - ["CSo8NSObject", "penalty1Img"]
 - ["CSo8NSObject", "penalty2Img"]
@@ -144,6 +153,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "foodImg"]
 - ["PSo16NSObjectProtocol", "heartImg"]
 - ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "itemDroppedOnCharacter"]
 - ["PSo16NSObjectProtocol", "monsterImg"]
 - ["PSo16NSObjectProtocol", "penalty1Img"]
 - ["PSo16NSObjectProtocol", "penalty2Img"]
@@ -160,6 +170,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "foodImg"]
 - ["PSo21UIAppearanceContainer", "heartImg"]
 - ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "itemDroppedOnCharacter"]
 - ["PSo21UIAppearanceContainer", "monsterImg"]
 - ["PSo21UIAppearanceContainer", "penalty1Img"]
 - ["PSo21UIAppearanceContainer", "penalty2Img"]
@@ -171,6 +182,7 @@ depends-member:
 - ["PSo18UIContentContainer", "foodImg"]
 - ["PSo18UIContentContainer", "heartImg"]
 - ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "itemDroppedOnCharacter"]
 - ["PSo18UIContentContainer", "monsterImg"]
 - ["PSo18UIContentContainer", "penalty1Img"]
 - ["PSo18UIContentContainer", "penalty2Img"]
@@ -185,6 +197,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "foodImg"]
 - ["PSo18UIFocusEnvironment", "heartImg"]
 - ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "itemDroppedOnCharacter"]
 - ["PSo18UIFocusEnvironment", "monsterImg"]
 - ["PSo18UIFocusEnvironment", "penalty1Img"]
 - ["PSo18UIFocusEnvironment", "penalty2Img"]
@@ -193,7 +206,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo11UIImageView", "dropTarget"]
-- !private ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "DragImg"]
 - ["CSo11UIResponder", "MonsterImg"]
 - !private ["CSo11UIResponder", "NSNotificationCenter"]
@@ -202,6 +215,7 @@ depends-member:
 - ["CSo11UIResponder", "foodImg"]
 - ["CSo11UIResponder", "heartImg"]
 - ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "itemDroppedOnCharacter"]
 - ["CSo11UIResponder", "monsterImg"]
 - ["CSo11UIResponder", "penalty1Img"]
 - ["CSo11UIResponder", "penalty2Img"]
@@ -212,6 +226,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "foodImg"]
 - ["PSo16UIStateRestoring", "heartImg"]
 - ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "itemDroppedOnCharacter"]
 - ["PSo16UIStateRestoring", "monsterImg"]
 - ["PSo16UIStateRestoring", "penalty1Img"]
 - ["PSo16UIStateRestoring", "penalty2Img"]
@@ -224,6 +239,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "foodImg"]
 - ["PSo18UITraitEnvironment", "heartImg"]
 - ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "itemDroppedOnCharacter"]
 - ["PSo18UITraitEnvironment", "monsterImg"]
 - ["PSo18UITraitEnvironment", "penalty1Img"]
 - ["PSo18UITraitEnvironment", "penalty2Img"]
@@ -232,7 +248,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "dropTarget"]
-- !private ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "DragImg"]
 - ["CSo16UIViewController", "MonsterImg"]
 - !private ["CSo16UIViewController", "NSNotificationCenter"]
@@ -240,6 +256,7 @@ depends-member:
 - ["CSo16UIViewController", "foodImg"]
 - ["CSo16UIViewController", "heartImg"]
 - ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "itemDroppedOnCharacter"]
 - ["CSo16UIViewController", "monsterImg"]
 - ["CSo16UIViewController", "penalty1Img"]
 - ["CSo16UIViewController", "penalty2Img"]
@@ -247,7 +264,7 @@ depends-member:
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
-- !private ["C15mylittlemonster14ViewController", "AnyObject"]
+- ["C15mylittlemonster14ViewController", "AnyObject"]
 - ["C15mylittlemonster14ViewController", "DragImg"]
 - ["C15mylittlemonster14ViewController", "MonsterImg"]
 - !private ["C15mylittlemonster14ViewController", "NSNotificationCenter"]
@@ -256,6 +273,7 @@ depends-member:
 - ["C15mylittlemonster14ViewController", "foodImg"]
 - ["C15mylittlemonster14ViewController", "heartImg"]
 - ["C15mylittlemonster14ViewController", "init"]
+- ["C15mylittlemonster14ViewController", "itemDroppedOnCharacter"]
 - ["C15mylittlemonster14ViewController", "monsterImg"]
 - ["C15mylittlemonster14ViewController", "penalty1Img"]
 - ["C15mylittlemonster14ViewController", "penalty2Img"]
@@ -303,4 +321,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
-interface-hash: "5541aa62538b586c338fb385edda752f"
+interface-hash: "df60fbfc29cf9d5fe928283778038454"
