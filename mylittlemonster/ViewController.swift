@@ -14,7 +14,7 @@ import AVFoundation
 
 
 class ViewController: UIViewController {
-
+    
     
     
     @IBOutlet weak var monsterImg: MonsterImg!
@@ -58,7 +58,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         foodImg.dropTarget = monsterImg
         heartImg.dropTarget = monsterImg
         
@@ -71,12 +71,12 @@ class ViewController: UIViewController {
         
         // Become the observer (This class will listen for it)
         // observer for the notification from dragged objects (touches ended) from the DragImg class
-        /* 
+        /*
         1. observer is self, means this class will listen for it
-        2. selector is function that you will call, "itemDroppedOnCharacter:" 
-            : means one or more parameters. If colon is not there, it will look for function with no parameters.
-            and NSNotifications pass in a Notification object pareameter, must have colon or function will not be called.
-            This is a common mistake when learning iOS.
+        2. selector is function that you will call, "itemDroppedOnCharacter:"
+        : means one or more parameters. If colon is not there, it will look for function with no parameters.
+        and NSNotifications pass in a Notification object pareameter, must have colon or function will not be called.
+        This is a common mistake when learning iOS.
         3. "onTargetDropped" is the name of the notificaiton, named before in DragImg class
         4. No object, nil.
         */
@@ -115,7 +115,7 @@ class ViewController: UIViewController {
         
         
         startTimer()
-    
+        
     }
     
     
@@ -129,21 +129,23 @@ class ViewController: UIViewController {
         monsterHappy = true
         
         
-        penalties--
-        
-        if penalties == 1 {
-            penalty1Img.alpha = OPAQUE
-            penalty2Img.alpha = DIM_ALPHA
-            penalty3Img.alpha = DIM_ALPHA
-        } else if penalties == 2 {
-            penalty2Img.alpha = OPAQUE
-            penalty3Img.alpha = DIM_ALPHA
-        } else {
-            penalty1Img.alpha = DIM_ALPHA
-            penalty2Img.alpha = DIM_ALPHA
-            penalty3Img.alpha = DIM_ALPHA
+        if penalties >= 1 {
+            
+            penalties--
+            
+            if penalties == 1 {
+                penalty1Img.alpha = OPAQUE
+                penalty2Img.alpha = DIM_ALPHA
+                penalty3Img.alpha = DIM_ALPHA
+            } else if penalties == 2 {
+                penalty2Img.alpha = OPAQUE
+                penalty3Img.alpha = DIM_ALPHA
+            } else {
+                penalty1Img.alpha = DIM_ALPHA
+                penalty2Img.alpha = DIM_ALPHA
+                penalty3Img.alpha = DIM_ALPHA
+            }
         }
-        
         
         startTimer()
         
@@ -208,14 +210,14 @@ class ViewController: UIViewController {
         let rand = arc4random_uniform(2)
         
         if rand == 0 {
-//            foodImg.alpha = DIM_ALPHA
-//            foodImg.userInteractionEnabled = false
+            //            foodImg.alpha = DIM_ALPHA
+            //            foodImg.userInteractionEnabled = false
             
             heartImg.alpha = OPAQUE
             heartImg.userInteractionEnabled = true
         } else {
-//            heartImg.alpha = DIM_ALPHA
-//            heartImg.userInteractionEnabled = false
+            //            heartImg.alpha = DIM_ALPHA
+            //            heartImg.userInteractionEnabled = false
             
             foodImg.alpha = OPAQUE
             foodImg.userInteractionEnabled = true
@@ -226,7 +228,7 @@ class ViewController: UIViewController {
         // reset to false and need to make him happy again
         monsterHappy = false
         
-
+        
     }
     
     
@@ -237,6 +239,6 @@ class ViewController: UIViewController {
         
     }
     
-
+    
 }
 

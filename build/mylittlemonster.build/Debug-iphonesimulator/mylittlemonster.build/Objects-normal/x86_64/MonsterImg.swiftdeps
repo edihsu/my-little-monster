@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C15mylittlemonster10MonsterImg", ""]
 provides-dynamic-lookup:
-- "playDeathAnimation"
 - "playIdleAnimation"
+- "playDeathAnimation"
 depends-top-level:
-- !private "StringLiteralType"
-- !private "UIImage"
-- !private "++"
-- "NSCoder"
 - !private "<="
+- !private "++"
+- !private "UIImage"
 - "MonsterImg"
-- "CGRect"
+- "NSCoder"
 - "UIImageView"
+- !private "StringLiteralType"
+- "CGRect"
 depends-member:
 - !private ["PSs9AnyObject", "UIImage"]
 - !private ["PSs9AnyObject", "animationDuration"]
@@ -518,5 +518,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 interface-hash: "d96e9f892340a497186ea96a9633b46f"
