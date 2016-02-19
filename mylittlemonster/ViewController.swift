@@ -199,12 +199,8 @@ class ViewController: UIViewController {
                 penalty2Img.alpha = DIM_ALPHA
                 penalty3Img.alpha = DIM_ALPHA
             }
-            
-            if penalties >= MAX_PENALTIES {
-                gameOver()
-            }
-            
         }
+
         
         // give a random number from range from 0 to 1
         let rand = arc4random_uniform(2)
@@ -229,16 +225,24 @@ class ViewController: UIViewController {
         monsterHappy = false
         
         
+        if penalties >= MAX_PENALTIES {
+            gameOver()
+        }
     }
     
     
     func gameOver() {
+
+        heartImg.alpha = DIM_ALPHA
+        heartImg.userInteractionEnabled = false
+        
+        foodImg.alpha = DIM_ALPHA
+        foodImg.userInteractionEnabled = false
+        
         timer.invalidate()
         monsterImg.playDeathAnimation()
         sfxDeath.play()
-        
     }
-    
-    
+
 }
 
