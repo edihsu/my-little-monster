@@ -6,25 +6,25 @@ provides-nominal:
 provides-member:
 - ["C15mylittlemonster7DragImg", ""]
 provides-dynamic-lookup:
-- "touchesMoved"
 - "touchesBegan"
-- "touchesEnded"
 - "dropTarget"
+- "touchesEnded"
+- "touchesMoved"
 depends-top-level:
-- "UITouch"
-- "UIEvent"
-- "CGPoint"
-- !private "StringLiteralType"
-- "Set"
 - !private "CGRectContainsPoint"
-- !private "NSNotificationCenter"
-- "DragImg"
-- !private "CGPointMake"
 - !private "NSNotification"
-- "CGRect"
-- "NSCoder"
-- "UIView"
+- "UITouch"
+- "CGPoint"
+- !private "CGPointMake"
+- !private "StringLiteralType"
+- "UIEvent"
 - "UIImageView"
+- "Set"
+- "DragImg"
+- !private "NSNotificationCenter"
+- "CGRect"
+- "UIView"
+- "NSCoder"
 depends-member:
 - !private ["PSs9AnyObject", "CGPointMake"]
 - !private ["PSs9AnyObject", "CGRectContainsPoint"]

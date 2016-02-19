@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C15mylittlemonster10MonsterImg", ""]
 provides-dynamic-lookup:
-- "playIdleAnimation"
 - "playDeathAnimation"
+- "playIdleAnimation"
 depends-top-level:
-- !private "++"
-- !private "UIImage"
-- "MonsterImg"
-- "NSCoder"
 - !private "StringLiteralType"
+- !private "UIImage"
+- !private "++"
+- "NSCoder"
 - !private "<="
-- "UIImageView"
+- "MonsterImg"
 - "CGRect"
+- "UIImageView"
 depends-member:
 - !private ["PSs9AnyObject", "UIImage"]
 - !private ["PSs9AnyObject", "animationDuration"]

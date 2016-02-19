@@ -141,6 +141,8 @@ SWIFT_CLASS("_TtC15mylittlemonster10MonsterImg")
 - (void)playDeathAnimation;
 @end
 
+@class NSTimer;
+@class AVAudioPlayer;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC15mylittlemonster14ViewController")
@@ -151,8 +153,22 @@ SWIFT_CLASS("_TtC15mylittlemonster14ViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified penalty1Img;
 @property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified penalty2Img;
 @property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified penalty3Img;
+@property (nonatomic, readonly) CGFloat DIM_ALPHA;
+@property (nonatomic, readonly) CGFloat OPAQUE;
+@property (nonatomic, readonly) NSInteger MAX_PENALTIES;
+@property (nonatomic) NSInteger penalties;
+@property (nonatomic, strong) NSTimer * __null_unspecified timer;
+@property (nonatomic) BOOL monsterHappy;
+@property (nonatomic, strong) AVAudioPlayer * __null_unspecified musicPlayer;
+@property (nonatomic, strong) AVAudioPlayer * __null_unspecified sfxBite;
+@property (nonatomic, strong) AVAudioPlayer * __null_unspecified sfxHeart;
+@property (nonatomic, strong) AVAudioPlayer * __null_unspecified sfxDeath;
+@property (nonatomic, strong) AVAudioPlayer * __null_unspecified sfxSkull;
 - (void)viewDidLoad;
 - (void)itemDroppedOnCharacter:(id __nonnull)notif;
+- (void)startTimer;
+- (void)changeGameState;
+- (void)gameOver;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
